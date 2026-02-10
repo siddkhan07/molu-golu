@@ -1,5 +1,3 @@
-/***********************************************************************
-
   A JavaScript tokenizer / parser / beautifier / compressor.
 
   This version is suitable for Node.js.  With minimal changes (the
@@ -413,3 +411,4 @@ function tokenizer($TEXT) {
                     case "u" : return String.fromCharCode(hex_bytes(4));
                     default  : return ch;
                 }
+
