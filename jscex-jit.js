@@ -540,3 +540,4 @@
                 this._writeIndents()
                     ._visitJscex(jscexAst)
                     ._writeLine();
+                                }
